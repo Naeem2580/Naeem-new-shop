@@ -1,0 +1,30 @@
+@media screen and (max-width:576px){
+    .navbar,
+    .navbar-right,
+    .header-content{
+        flex-direction: column;
+    }
+    .nav-section{
+        height: 300px;
+    }
+    .navbar-left{
+        margin-left: 50px;
+    }
+    .navbar-right{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+  
+    .header-left{
+        width: 100%;
+    }
+    .header-right{
+        width: 100%;
+    }
+    .product-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+   
+}
